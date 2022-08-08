@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'Cascadia Code';
+	src: url(CascadiaCode.ttf) format("truetype");
+}
+
+body {
+	font-family: 'Cascadia Code';
+}
+
+body div {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+div {
+	display: flex;
+}
+
+header {
+	margin: 1em;
+	border: 1px solid black;
+}
+
+.centered {
+	justify-content: center;
+}
